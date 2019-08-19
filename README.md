@@ -3,7 +3,7 @@
 
 Cloning Youtube with Express + ES6 + NodeJS
 
-- [X] 1. EXPRESS JS
+- [O] 1. EXPRESS JS
 - [] 2. MONGO DB
 - [] 3. USER AUTHENTICATION
 - [] 4. GULP

@@ -1,0 +1,10 @@
+doctype html
+html(lang="en")
+    head
+        script(src="https://kit.fontawesome.com/6211ed03ed.js")
+        title #{pageTitle} | #{siteName}
+    body
+        include ./header.pug
+        main
+            block content
+        include ./footer.pug
