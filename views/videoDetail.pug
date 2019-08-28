@@ -1,1 +1,11 @@
 extends layouts/main.pug
+include mixins/videoForDetail
+
+block content
+    +videoForDetail({
+        title: video.title,
+        description : video.description,
+        views: video.views,
+        id : video.id,
+        videoFile : video.fileURL
+    })

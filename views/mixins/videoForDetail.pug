@@ -1,0 +1,13 @@
+mixin videoForDetail(video={})
+    .videoDetail
+        .video-container
+            span.video__layout
+                video(src=`/${video.videoFile}`, controls=true, height="200px", width="400px")
+        .button-container
+            a(href=routes.editVideo(video.id))
+                button EDIT VIDEO
+        .video__textBox
+            p=video.title
+            p=video.description
+            p=video.views
+
